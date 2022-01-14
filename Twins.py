@@ -83,10 +83,10 @@ def compare_binaries_with_sequences(bin1, bin2):
 if __name__ == '__main__':
 
     # ida64_absolute_path
-    cmd64 = "D:\\Programs\\IDA7.5SP3\\ida64.exe"
+    cmd64 = "script_absolute_path/ida64.exe"
 
     # script_absolute_path
-    script = "E:\\Code\\TWINS\\ExtractFeatures\\ExtractFeatures.py"
+    script = "script_absolute_path/TWINS/ExtractFeatures/ExtractFeatures.py"
 
     ckpt = "FunctionEmbedding/checkpoint/model.ckp"
 
