@@ -25,7 +25,7 @@ To use TWINS, we need the following tools installed
 ## III. Usage
 Binary code similarity detection for two binaries:
 ```
-python Twins.py --file1 example/OLLVM/normal/find --file2 example/OLLVm/bcf/find
+python Twins.py --file1 example/OLLVM/normal/find --file2 example/OLLVM/bcf/find
 [+] Extracting Binary Features
 [+] Extraction is complete!
 [+] Extracting Binary Features
@@ -620,5 +620,5 @@ allocate_entry_Hash_6421                           allocate_entry_Hash_9203     
 hash_insert_Hash_1562                              hash_insert_Hash_3113                                 inter-function semantics
 hash_delete_Hash_4089                              hash_delete_Hash_6905                                 inter-function semantics
 ```
-- "_Hash_xxxx" is a randomly added suffix to distinguish function names.
+- "_Hash_xxxx" is an added random suffix to distinguish function names.
 
