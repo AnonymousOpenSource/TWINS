@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from models.graphcnn import GraphCNN
 import pickle
 from pathlib import Path
-from libs import S2VGraph, BlockEmbedding
+from library.libs import S2VGraph, BlockEmbedding
 import os
 from torch.nn.functional import softmax
 import random

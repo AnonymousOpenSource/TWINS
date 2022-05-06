@@ -6,8 +6,7 @@ import torch
 from models.graphcnn import GraphCNN
 from tqdm import tqdm
 import os
-import heapq
-from libs import S2VGraph, read_pickle, BlockEmbedding, ControlGraphEmbedding
+from library.libs import read_pickle, BlockEmbedding, ControlGraphEmbedding
 import argparse
 import numpy as np
 from Tokenizer.InstructionTokenizer import InstructionTokenizer
@@ -108,8 +107,8 @@ if __name__ == '__main__':
     file2 = args.file2
 
 
-    get_idb_file(file1)
-    get_idb_file(file2)
+    # get_idb_file(file1)
+    # get_idb_file(file2)
 
     BlkEmbedding = BlockEmbedding(model_directory=blkEmbedding, tokenizer=tokenizer_path, device=device)
     if CFGconfig and ckpt:
