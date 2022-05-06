@@ -1,0 +1,2 @@
+Pass Arguments:  -tti -verify -ee-instrument
+Pass Arguments:  -targetlibinfo -tti -assumption-cache-tracker -profile-summary-info -forceattrs -basiccg -always-inline -barrier -verify
