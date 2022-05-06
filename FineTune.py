@@ -138,7 +138,7 @@ def main():
     model_output_dir = "BlockEmbedding/ModelBlockSimilarity/"
 
     epochs = 10000
-    lr = 1e-3
+    lr = 1e-4
     device = torch.device('cuda:0')
 
     best_results = 0.95

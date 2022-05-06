@@ -50,7 +50,7 @@ training_args = TrainingArguments(
     per_device_train_batch_size=24,
     save_steps=10_000,
     save_total_limit=2,
-    learning_rate=3e-7,
+    learning_rate=1e-4,
     prediction_loss_only=True,
 )
 
