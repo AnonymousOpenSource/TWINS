@@ -12,14 +12,11 @@ To use TWINS, we need the following tools installed
 - Numpy
 - Scikit-learn
 - Transformers
-- elftools
+
 
 ## II. Files description
-- `PreTrain.py`: python file for ALM pretraining.
 - `FineTune.py`: python file for ALM finetuning.
 - `GenerateTripletBlock.py`: python file for generating the ground truth of similar basic block pairs.
-- `libs.py`: libraries.
-- `FuncEmbedding.py`: python file for function model training.
 - `Twins.py`: python file for Binary Code Similarity Detection.
 
 ## III. Usage
@@ -28,9 +25,6 @@ To use TWINS, we need the following tools installed
 ```
 python Twins.py --file1 example/OLLVM/normal/find --file2 example/OLLVM/bcf/find
 [+] Extracting Binary Features
-[+] Extraction is complete!
-[+] Extracting Binary Features
-[+] Extraction is complete!
 100%|███████████████████████████████████████████████████████████████████████████████| 617/617 [00:05<00:00, 119.84it/s]
 100%|███████████████████████████████████████████████████████████████████████████████| 685/685 [00:05<00:00, 135.74it/s]
 Binary1                                            Binary2
@@ -622,7 +616,6 @@ hash_insert_Hash_1562                              hash_insert_Hash_3113        
 hash_delete_Hash_4089                              hash_delete_Hash_6905                                 inter-function semantics
 ```
 - "_Hash_xxxx" is an added random suffix to distinguish function names.
-
 
 
 #### Binary code similarity detection for two striped binaries:
