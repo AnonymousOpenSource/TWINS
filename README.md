@@ -620,11 +620,11 @@ hash_delete_Hash_4089                              hash_delete_Hash_6905        
 
 #### Binary code similarity detection for two striped binaries:
 <details>
-<summary>python Twins.py --file1 example/OLLVM/striped/normal/find --file2 example/OLLVm/striped/split/find
+<summary>python Twins.py --file1 example/OLLVM/striped/normal/find --file2 example/OLLVM/striped/split/find
 </summary>
 
 ```
-python Twins.py --file1 example/OLLVM/striped/normal/find --file2 example/OLLVm/striped/split/find
+python Twins.py --file1 example/OLLVM/striped/normal/find --file2 example/OLLVM/striped/split/find
 100%|███████████████████████████████████████████████████████████████████████████████| 617/617 [00:04<00:00, 135.19it/s]
 100%|███████████████████████████████████████████████████████████████████████████████| 617/617 [00:04<00:00, 141.73it/s]
 Binary1                                            Binary2
